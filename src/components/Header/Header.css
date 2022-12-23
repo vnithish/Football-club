@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+
+.header-menu>li{
+  cursor: pointer;
+}
+
+.header-menu>li:hover{
+  color: var(--gold);
+  cursor: pointer;
+}
+
+.the-best-ad>span{
+  z-index: 2;
+}
+
+.the-best-ad>div{
+  position: absolute;
+  background-color: var(--gold);
+  width: 5.4rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 1;
+}
+
+
