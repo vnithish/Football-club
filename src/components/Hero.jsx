@@ -5,6 +5,7 @@ import hero_image from "../assets/hero_image.png";
 import hero_image_back from "../assets/hero_image_back.png";
 import Heart from "../assets/heart.png";
 import Calories from "../assets/calories.png";
+import soccer from "../assets/soccer.png"
 
 
 import {motion} from 'framer-motion'
@@ -26,11 +27,11 @@ const Hero = () => {
 
         <div className="hero-text">
           <div>
-            <span className="stroke-text">Shape </span>
+            <span className="stroke-text">Level Up </span>
             <span>Your</span>
           </div>
           <div><span>
-            Ideal Body</span></div>
+            Soccer Skill</span></div>
         </div>
         <div>
           <span>
@@ -73,7 +74,7 @@ const Hero = () => {
           <span>116 bpm</span>
         </motion.div>
 
-        <img src={hero_image} alt="" className="hero-image" />
+        <img src={soccer} alt="" className="hero-image" />
         <motion.img 
         initial={{right: "11rem"}}
         whileInView={{right: "20rem"}}
