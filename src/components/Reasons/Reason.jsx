@@ -11,7 +11,7 @@ function Reason() {
 
   return (
 
-    <div className='Reason'>
+    <div className='Reason' id = "why">
         <div className="left-r">
             <img src={image1} alt="" />
             <img src={image2} alt="" />
