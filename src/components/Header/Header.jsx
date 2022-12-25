@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <div className="header">
       <img src={Logo} alt="" className="logo" />
-<<<<<<< HEAD
+
 {(menuOpened === false && mobile === true )? (
   <div style={{backgroundColor: 'var(--appColor)',padding : '0.5rem',borderRadius:'5px'}} 
   onClick = {()=> setMenuOpened(true)} 
@@ -45,7 +45,7 @@ const Header = () => {
         <li>Why Us</li>
         <li>Testimonials</li>
       </ul>
->>>>>>> 9780debdf209188c088a4dac633cef899715548c
+
     </div>
   )
 }
