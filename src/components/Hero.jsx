@@ -22,7 +22,7 @@ const Hero = () => {
             whileInView={{left: '8px'}}
             transition={{...transition, type: 'tween'}}
           ></motion.div>
-          <span>The Best Football Club In Town</span>
+          <span>The Best Football Academy In Town</span>
         </div>
 
         <div className="hero-text">
@@ -47,7 +47,7 @@ const Hero = () => {
           <span>Coaches</span>
         </div>
         <div>
-          <span>+500</span>
+          <span>+50</span>
           <span>Members Joined</span>
         </div>
         <div>
