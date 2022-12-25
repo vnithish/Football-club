@@ -70,8 +70,8 @@ const Hero = () => {
         whileInView={{right: "4rem"}}
         initial={{right: "-1rem"}}>
           <img src={Heart} alt="" />
-          <span>Heart Rate</span>
-          <span>116 bpm</span>
+          <span>Stamina</span>
+          <span>89</span>
         </motion.div>
 
         <img src={soccer} alt="" className="hero-image" />

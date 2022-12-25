@@ -1,7 +1,7 @@
 import React from 'react'
 import './Programs.css'
-import { programsData } from '../data/programsData'
-import RightArrow from '../assets/rightArrow.png'
+import { programsData } from '../../data/programsData'
+import RightArrow from '../../assets/rightArrow.png'
 export const Programs = () => {
   return (
     <div className="Programs" id="programs">

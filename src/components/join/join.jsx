@@ -9,11 +9,13 @@ const Join = () => {
           <span> LEVEL UP</span>
         </div>
         <div>
-          <span>YOUR BODY</span>
+          <span>YOUR SKILLS </span>
           <span className="stroke-text">WITH US?</span>
         </div>
       </div>
-      <div className="right-j"></div>
+      <div className="right-j">
+        {/* Conatact details */}
+      </div>
     </div>
   );
 };
