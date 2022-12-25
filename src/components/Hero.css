@@ -185,11 +185,11 @@
   .hero-blur{
     width: 14rem;
   }
-  .the-best-ad {
-    margin-top: 0;
+  .the-best-ad {  
     font-size: small;
     align-self: center;
     transform: scale(0.8);
+    margin : 0 0 0 0 !important;
   }
   .hero-text{
     font-size: xx-large;
