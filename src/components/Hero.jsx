@@ -45,7 +45,7 @@ const Hero = () => {
       {/*figures*/}
       <div className="figures">
         <div>
-          <span></span>
+          <span>+5</span>
           <span>Coaches</span>
         </div>
         <div>
