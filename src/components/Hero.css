@@ -104,7 +104,7 @@
   background-color: var(--darkGrey);
   width: fit-content;
   padding: 1rem;
-  align-items: start;
+  align-items: flex-start;
   border-radius: 5px;
   position: absolute;
   right: 4rem;
@@ -181,9 +181,9 @@
     width: 14rem;
   }
   .the-best-ad {
-    margin-top: 0;
-    font-size: small;
     align-self: center;
+    margin: 0;
+    font-size: small;
     transform: scale(0.8);
   }
   .hero-text{

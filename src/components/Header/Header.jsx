@@ -6,6 +6,7 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   const mobile = window.innerWidth<=768 ? true : false; 
+  
   const [menuOpened,setMenuOpened] = useState(false)
   return (
     <div className="header">
@@ -37,14 +38,9 @@ const Header = () => {
 )
 }
       
-=======
 
-      <ul className='header-menu'>
-        <li>Home</li>
-        <li>Programs</li>
-        <li>Why Us</li>
-        <li>Testimonials</li>
-      </ul>
+
+      
 
     </div>
   )

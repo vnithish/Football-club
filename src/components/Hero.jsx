@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header/Header";
 import './Hero.css' ;
-import hero_image from "../assets/hero_image.png";
+// import hero_image from "../assets/hero_image.png";
 import hero_image_back from "../assets/hero_image_back.png";
 import Heart from "../assets/heart.png";
 import Calories from "../assets/calories.png";
@@ -15,10 +15,11 @@ const Hero = () => {
   const mobile = window.innerWidth<=768 ? true : false; 
   return (
     <div className="hero" id="home">
+      {/* <div class="blur hero-blur"></div> */}
       <div className="left-h">
         <Header />
 
-        <div className="the-best-ad">
+        <div className="the-best-ad" style={{alignItems: "center"}}>
           <motion.div
             initial={{left: mobile? "165px":'238px'}}
             whileInView={{left: '8px'}}
@@ -34,18 +35,19 @@ const Hero = () => {
           </div>
           <div><span>
             Soccer Skill</span></div>
-        </div>
+        
         <div>
           <span>
           In here we will help you level up your soccer skills.
           </span>
+        </div>
         </div>
       
 
       {/*figures*/}
       <div className="figures">
         <div>
-          <span></span>
+          <span>+5</span>
           <span>Coaches</span>
         </div>
         <div>
