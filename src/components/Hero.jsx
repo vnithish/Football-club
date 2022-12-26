@@ -33,9 +33,15 @@ const Hero = () => {
             <span className="stroke-text">Level Up </span>
             <span>Your</span>
           </div>
+
           <div><span>
             Soccer Skill</span></div>
         
+
+          <div>
+            <span>Soccer Skill</span>
+          </div>
+
         <div>
           <span>
           In here we will help you level up your soccer skills.

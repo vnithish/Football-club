@@ -6,7 +6,7 @@
 .left-t {
   display: flex;
   flex: 1 1;
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: column;
   text-transform: uppercase;
   color: white;
@@ -70,6 +70,7 @@
 .arrows > img {
   width: 1.5rem;
   cursor: pointer;
+  margin-right: 5px;
 }
 
 @media screen and (max-width : 768px) {

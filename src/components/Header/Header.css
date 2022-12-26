@@ -49,4 +49,9 @@
     background-color: var(--appColor);
     padding: 2rem;
   }
+
+    .logo {
+      width: 4rem;
+      border-radius: 40px;
+    }
 }

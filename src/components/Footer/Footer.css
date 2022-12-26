@@ -50,3 +50,21 @@
     width: 4rem;
     margin: 0;  
 } 
+
+
+@media screen and (max-width : 768px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-f {
+        margin-bottom: 30px;
+    }
+
+    .media-icons{
+        margin-left: 50px;
+    }
+}

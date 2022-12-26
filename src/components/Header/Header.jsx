@@ -14,34 +14,34 @@ const Header = () => {
 
 {(menuOpened === false && mobile === true )? (
   <div style={{backgroundColor: 'var(--appColor)',padding : '0.5rem',borderRadius:'5px'}} 
-  onClick = {()=> setMenuOpened(true)} 
+  onClick = {()=> setMenuOpened(!menuOpened)} 
   >
-    <img src={Bars} alt="" style={{width:'1.5rem',height:'1.5rem' }}/>
+  <img src={Bars} alt="" style={{width:'1.5rem',height:'1.5rem' }}/>
   </div>
 ):(<ul className='header-menu'>
-<li>
-  <Link to = 'home' spy = {true} smooth = {true} onClick={() => setMenuOpened(false)} activeClass = "active">Home</Link>
+<li onClick={() => setMenuOpened(false)}>
+  <Link to = 'home' spy = {true} smooth = {true}  activeClass = "active" onClick={() => setMenuOpened(false)}>Home</Link>
 </li>
-<li>
+<li onClick={() => setMenuOpened(false)}>
   <Link to = 'programs' spy = {true} smooth = {true} onClick={() => setMenuOpened(false)}>Programs</Link>
 </li>
-<li>
+<li onClick={() => setMenuOpened(false)}>
   <Link to = 'why' spy = {true} smooth = {true} onClick={() => setMenuOpened(false)}>Why Us</Link>
 </li>
-{/* <li>
-  <Link to = 'home' spy = {true} smooth = {true} onClick={() => setMenuOpened(false)}>Plans</Link>
-</li> */}
-<li >
+<li  onClick={() => setMenuOpened(false)} >
   <Link to = 'Testimonials' spy = {true} smooth = {true} onClick={() => setMenuOpened(false)}>Testimonials</Link>
 </li>
 </ul>
 )
 }
+<<<<<<< HEAD
       
 
 
       
 
+=======
+>>>>>>> 46ed1793ed4e7a18eb03e4654d545c309b7419c4
     </div>
   )
 }

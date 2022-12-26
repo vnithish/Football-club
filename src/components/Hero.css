@@ -32,7 +32,7 @@
 .hero-text{
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.5rem;
   text-transform: uppercase;
   font-size: 4.5rem;
   font-weight: bold;
@@ -172,6 +172,11 @@
   font-size: 1.5rem;
 }
 
+.hero-subtext {
+  color: white;
+  align-items: center;
+}
+
 
 @media screen and (max-width : 768px){
   .hero{
@@ -180,11 +185,16 @@
   .hero-blur{
     width: 14rem;
   }
-  .the-best-ad {
+
+
+  .the-best-ad {  
+    font-size: small;
+
     align-self: center;
     margin: 0;
     font-size: small;
     transform: scale(0.8);
+    margin : 0 0 0 0 !important;
   }
   .hero-text{
     font-size: xx-large;
