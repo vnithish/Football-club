@@ -13,11 +13,7 @@ const Join = () => {
           <span className="stroke-text">WITH US?</span>
         </div>
       </div>
-<<<<<<< HEAD
-      
-=======
- 
->>>>>>> e9e9b68b3ef899102efdeee42db398fba84d59c2
+
     </div>
   );
 };

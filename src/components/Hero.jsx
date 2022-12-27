@@ -63,18 +63,7 @@ const Hero = () => {
           </span>
           <span>Members Joined</span>
         </div>
-        <div>
-        <span>
-          <NumberCounter end = {10} start = {5} delay = '1' preFix = '+'/>
-        </span>
-
-          <span><NumberCounter end = {5} start = {0} delay = '1' preFix = '+'/></span>
-          <span>Coaches</span>
-        </div>
-        <div>
-          <span><NumberCounter end = {50} start = {0} delay = '1' preFix = '+'/></span>
-          <span>Members Joined</span>
-        </div>
+        
         <div>
         <span><NumberCounter end = {10} start = {0} delay = '1' preFix = '+'/></span>
 
