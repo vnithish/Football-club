@@ -3,6 +3,8 @@ import { testimonialsData } from "../../data/testimonialsData";
 import "./Testimonials.css";
 import leftArrow from "../../assets/leftArrow.png";
 import rightArrow from "../../assets/rightArrow.png";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import user from '../../assets/user.png'
 const Testimonials = () => {
   const [selected, setSelected] = useState(0);
   const tLength = testimonialsData.length;
@@ -24,7 +26,7 @@ const Testimonials = () => {
       <div className="right-t">
         <div></div>
         <div></div>
-        <img src={testimonialsData[selected].image} alt="" />
+        <img src={user} alt="" />
         <div className="arrows">
           <img
             onClick={() => {
