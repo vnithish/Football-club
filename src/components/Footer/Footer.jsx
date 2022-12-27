@@ -2,7 +2,6 @@ import React from 'react'
 import Map from '../Maps/Map'
 import './Footer.css'
 import Insta from '../../assets/instagram.png'
-import LinkedIn from '../../assets/linkedin.png'
 import frame from "../../assets/logo.png"
 import water from '../../assets/watermark.png'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';

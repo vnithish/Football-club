@@ -9,7 +9,9 @@
   --appColor:  #3c3f45;
   --gold: rgb(253, 156, 0);
 }
-
+body{
+  margin: 0;
+}
 
 
 .App {
@@ -45,4 +47,11 @@
 
 .btn:hover{
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+  *{
+    margin: 0 !important;
+  }
 }
