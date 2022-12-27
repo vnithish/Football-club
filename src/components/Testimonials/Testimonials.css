@@ -76,7 +76,7 @@
 @media screen and (max-width : 768px) {
   .Testimonials
   {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .left-t>:nth-child(2)
   ,.left-t>:nth-child(3){
