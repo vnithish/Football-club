@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Football-club/static/css/main.4d2b2034.css",
+    "main.js": "/Football-club/static/js/main.58405cf5.js",
+    "static/media/soccer.png": "/Football-club/static/media/soccer.4235dbafa8f44b42a997.png",
+    "static/media/image2.png": "/Football-club/static/media/image2.f674a1349843bdfe3be1.png",
+    "static/media/logo.png": "/Football-club/static/media/logo.28f68d242b92d16e71f2.png",
+    "static/media/t-image1.png": "/Football-club/static/media/t-image1.c16c2c261034cf78ee57.png",
+    "static/media/image1.png": "/Football-club/static/media/image1.1091417d32e491f0bbb6.png",
+    "static/media/image3.png": "/Football-club/static/media/image3.60989e1b8dd43d18a436.png",
+    "static/media/t-image3.jpg": "/Football-club/static/media/t-image3.3894413f7bf2b4f1fc54.jpg",
+    "static/media/image4.png": "/Football-club/static/media/image4.2c0d30b9ce1579eb1109.png",
+    "static/media/t-image2.jpg": "/Football-club/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
+    "static/media/user.png": "/Football-club/static/media/user.e4dd1b1b95afcaf6dc55.png",
+    "static/media/hero_image_back.png": "/Football-club/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "static/media/dugout.png": "/Football-club/static/media/dugout.3e545f0376d79d6c006f.png",
+    "index.html": "/Football-club/index.html",
+    "main.4d2b2034.css.map": "/Football-club/static/css/main.4d2b2034.css.map",
+    "main.58405cf5.js.map": "/Football-club/static/js/main.58405cf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2b2034.css",
+    "static/js/main.58405cf5.js"
+  ]
+}
