@@ -13,7 +13,7 @@ function Footer() {
     <div className='footer'>
         <div className="left-f">
             <h3>Contact : +91 70927 88767</h3>
-            <h3>Email : @.com</h3>
+            <h3>Email : prosoccerschool.pss@gmail.com</h3>
             <Map/>
         </div>
         <div className="media-icons">

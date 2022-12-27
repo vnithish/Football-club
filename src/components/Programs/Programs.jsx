@@ -2,6 +2,8 @@ import React from 'react'
 import './Programs.css'
 import { programsData } from '../../data/programsData'
 import RightArrow from '../../assets/rightArrow.png'
+import ChildCareIcon from '@mui/icons-material/ChildCare';
+import { Link } from 'react-scroll';
 export const Programs = () => {
   return (
     <div className="Programs" id="programs">
@@ -17,7 +19,7 @@ export const Programs = () => {
                    {program.image}
                    <span>{program.heading}</span>
                    <span>{program.details}</span> 
-                   <div className="join-now"><span>Join Now</span><img src={RightArrow} alt="" /></div>
+                   <div className="join-now"><span><Link to = 'join-us' spy = {true} smooth = {true}  activeClass = "active" >Join Now</Link></span><img src={RightArrow} alt="" /></div>
                 </div>
             ))}
         </div>

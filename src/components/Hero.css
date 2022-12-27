@@ -189,9 +189,9 @@
 
   .the-best-ad {  
     font-size: small;
-    
+
     align-self: center;
-    margin: 0;
+    margin: 0 !important;
     font-size: small;
     transform: scale(0.8);
     margin : 0 0 0 15% !important;
@@ -251,4 +251,10 @@
   }
   
 
+}
+
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
 }

@@ -2,6 +2,7 @@
   display: flex;
   padding: 0 2rem;
   gap: 10rem;
+  justify-content: center;
 }
 .left-j {
   color: white;
@@ -9,6 +10,7 @@
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  text-align: center;
 }
 .left-j > hr {
   position: absolute;

@@ -21,5 +21,8 @@ export const testimonialsData = [
     review:' Hi, this is M.Mahi preetham a player from PSS, I would like to thank my pss coaches for helpinh me to develop my game . I really like the way you teaches all football tips and tricks with patience and with that you also teaches me the discipline that every football player must have . Now  i have a dream that is to play in our indian football team,  I really believe pss would help me to achieve my dream .THANK YOU',
     name: 'M.Mahi',
     status: "Elite high intensity program player"
-  }
+
+     
+  },
+
 ];

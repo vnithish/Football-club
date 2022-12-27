@@ -49,9 +49,18 @@ body{
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width: 768px){
   *{
     margin: 0 !important;
   }
+=======
+.blur {
+  background: var(--gold);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(212px);
+  z-index: -9;
+>>>>>>> e9e9b68b3ef899102efdeee42db398fba84d59c2
 }

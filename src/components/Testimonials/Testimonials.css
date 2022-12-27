@@ -34,11 +34,11 @@
 }
 .right-t > img {
   position: absolute;
-  width: 17rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   object-fit: cover;
   right: 8rem;
-  top: 2rem;
+  top: 6rem;
 }
 
 .right-t > :nth-child(1) {

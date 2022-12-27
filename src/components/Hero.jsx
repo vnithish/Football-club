@@ -8,6 +8,9 @@ import Calories from "../assets/calories.png";
 import soccer from "../assets/soccer.png"
 import NumberCounter from 'number-counter'
 
+import { Link } from 'react-scroll';
+
+
 
 
 import {motion} from 'framer-motion'
@@ -16,7 +19,7 @@ const Hero = () => {
   const mobile = window.innerWidth<=768 ? true : false; 
   return (
     <div className="hero" id="home">
-      {/* <div class="blur hero-blur"></div> */}
+      <div class="blur hero-blur"></div>
       <div className="left-h">
         <Header />
 
@@ -64,17 +67,28 @@ const Hero = () => {
         <span>
           <NumberCounter end = {10} start = {5} delay = '1' preFix = '+'/>
         </span>
+
+          <span><NumberCounter end = {5} start = {0} delay = '1' preFix = '+'/></span>
+          <span>Coaches</span>
+        </div>
+        <div>
+          <span><NumberCounter end = {50} start = {0} delay = '1' preFix = '+'/></span>
+          <span>Members Joined</span>
+        </div>
+        <div>
+        <span><NumberCounter end = {10} start = {0} delay = '1' preFix = '+'/></span>
+
         <span>Coaching Programs</span>
         </div>
       </div>
 
       <div className="hero-buttons">
-        <buttons className="btn">Get Started</buttons>
-        <buttons className="btn">Learn More</buttons>
+        <buttons className="btn"><Link to = 'programs' spy = {true} smooth = {true}  activeClass = "active" >Get Started</Link></buttons>
+        
       </div>
     </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
+        <button className="btn"><Link to = 'join-us' spy = {true} smooth = {true}  activeClass = "active">Join Now</Link></button>
 
         <motion.div 
         className="heart-rate"
