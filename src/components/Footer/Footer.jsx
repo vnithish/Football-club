@@ -5,6 +5,7 @@ import Insta from '../../assets/instagram.png'
 import LinkedIn from '../../assets/linkedin.png'
 import frame from "../../assets/logo.png"
 import water from '../../assets/watermark.png'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Footer() {
   return (
@@ -17,8 +18,12 @@ function Footer() {
             <Map/>
         </div>
         <div className="media-icons">
+            <a href="https://www.instagram.com/prosoccerschool/">
             <img src={Insta} alt="" />
-            <img src={LinkedIn} alt="" />
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=917092788767">
+              <WhatsAppIcon/>
+            </a>
         </div>
         <div className="right-f">
             <img src={frame} alt="" />

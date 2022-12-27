@@ -22,9 +22,15 @@
     margin-right: 60px;
 }
 
-.media-icons>img {
+.media-icons>a>img {
     width: 2rem;
     height:  2rem;
+}
+
+.media-icons>a>.MuiSvgIcon-root {
+    width: 2rem;
+        height: 2rem;
+        color: white;
 }
 
 .right-f>img {
