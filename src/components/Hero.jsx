@@ -22,7 +22,7 @@ const Hero = () => {
 
         <div className="the-best-ad" style={{ alignItems: "center" }}>
           <motion.div
-            initial={{ left: mobile ? "165px" : "238px" }}
+            initial={{ left: mobile ? "80px" : "100px" }}
             whileInView={{ left: "8px" }}
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
