@@ -6,7 +6,7 @@
 .left-h {
   padding: 2rem;
   padding-top: 1.5rem;
-  flex: 3
+  flex: 3;
 }
 
 .right-h {
@@ -15,7 +15,7 @@
   background-color: var(--gold);
 }
 
-.the-best-ad{
+.the-best-ad {
   margin-top: 4rem;
   background-color: #363d42;
   border-radius: 4rem;
@@ -29,19 +29,18 @@
   justify-content: flex-start;
 }
 
-.hero-text{
+.hero-text {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   text-transform: uppercase;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: bold;
   color: white;
   text-overflow: inherit;
 }
 
-
-.hero-text>div:nth-of-type(3){
+.hero-text > div:nth-of-type(3) {
   font-size: 1rem;
   font-weight: 200;
   text-transform: none;
@@ -49,55 +48,55 @@
   width: 80%;
 }
 
-.figures{
+.figures {
   display: flex;
   gap: 2rem;
   margin-top: 1rem;
 }
 
-.figures>div{
+.figures > div {
   display: flex;
   flex-direction: column;
 }
 
-.figures>div>span:nth-of-type(1){
+.figures > div > span:nth-of-type(1) {
   color: white;
   font-size: 2rem;
 }
 
-.figures>div>span:nth-of-type(2){
+.figures > div > span:nth-of-type(2) {
   color: var(--gray);
   text-transform: uppercase;
 }
 
-.hero-buttons{
+.hero-buttons {
   display: flex;
   gap: 1rem;
   font-weight: normal;
   margin-top: 1rem;
 }
 
-.hero-buttons>:nth-child(2){
+/* .hero-buttons>:nth-child(2){
   color: white;
   background-color: transparent;
   width: 8rem;
   border: 2px solid var(--gold);
-}
+} */
 
-.hero-buttons>:nth-child(1){
+.hero-buttons > :nth-child(1) > .btn {
   color: white;
   background-color: var(--gold);
   width: 8rem;
 }
 
-.right-h>.btn{
+.right-h > .join-us > .btn {
   position: absolute;
   right: 3rem;
   top: 2rem;
   color: black;
 }
 
-.heart-rate{
+.heart-rate {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -111,20 +110,20 @@
   top: 7rem;
 }
 
-.heart-rate>:nth-child(2){
+.heart-rate > :nth-child(2) {
   color: var(--gray);
 }
 
-.heart-rate>:nth-child(3){
+.heart-rate > :nth-child(3) {
   color: white;
   font-size: 1.5rem;
 }
 
-.heart-rate>img{
+.heart-rate > img {
   width: 2rem;
 }
 
-.hero-image{
+.hero-image {
   position: absolute;
   top: 8rem;
   right: 8rem;
@@ -133,7 +132,7 @@
   /* margin-bottom: 324rem; */
 }
 
-.hero-image-back{
+.hero-image-back {
   position: absolute;
   top: 4rem;
   right: 20rem;
@@ -141,7 +140,7 @@
   width: 15rem;
 }
 
-.goals{
+.goals {
   display: flex;
   gap: 2rem;
   background-color: var(--caloryCard);
@@ -153,21 +152,21 @@
   right: 35rem;
 }
 
-.goals>img{
+.goals > img {
   width: 3rem;
 }
 
-.goals>div{
+.goals > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.goals>div>:nth-child(1){
+.goals > div > :nth-child(1) {
   color: var(--gray);
 }
 
-.goals>div>:nth-child(2){
+.goals > div > :nth-child(2) {
   color: white;
   font-size: 1.5rem;
 }
@@ -177,80 +176,75 @@
   align-items: center;
 }
 
-
-@media screen and (max-width : 768px){
-  .hero{
+@media screen and (max-width: 768px) {
+  .hero {
     flex-direction: column;
   }
-  .hero-blur{
+  .hero-blur {
     width: 14rem;
   }
 
-
-  .the-best-ad {  
+  .the-best-ad {
     font-size: small;
 
     align-self: center;
     margin: 0 !important;
     font-size: small;
     transform: scale(0.8);
-    margin : 0 0 0 15% !important;
+    margin: 0 0 0 15% !important;
   }
-  .hero-text{
+  .hero-text {
     font-size: xx-large;
     align-items: center;
     justify-content: center;
   }
-  .hero-text > div:nth-of-type(3){
+  .hero-text > div:nth-of-type(3) {
     font-size: small;
     font-weight: 200;
     letter-spacing: 1px;
     text-align: center;
   }
-  .hero-buttons{
+  .hero-buttons {
     justify-content: center;
   }
-  .figures > div > span:nth-of-type(1){
+  .figures > div > span:nth-of-type(1) {
     font-size: large;
   }
-  .figures > div >span:nth-of-type(2){
+  .figures > div > span:nth-of-type(2) {
     font-size: small;
   }
-  .right-h{
+  .right-h {
     position: relative;
     background: none;
   }
-  .heart-rate{
+  .heart-rate {
     left: 1rem;
     top: 2rem;
   }
-  .goals{
+  .goals {
     position: relative;
     top: 5rem;
     left: 2rem;
-
   }
-  .goals>img{
+  .goals > img {
     width: 2rem;
   }
-  .goals > div > :nth-child(2){
+  .goals > div > :nth-child(2) {
     color: white;
     font-size: 1rem;
   }
-  .hero-image{
+  .hero-image {
     position: relative;
     width: 15rem;
     left: 7rem;
     top: 4rem;
     align-self: center;
   }
-  .hero-image-back{
+  .hero-image-back {
     width: 15rem;
     left: 2rem;
     top: 0rem;
   }
-  
-
 }
 
 .hero-blur {
