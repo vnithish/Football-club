@@ -1,0 +1,31 @@
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+}
+
+.left>img{
+    width: 65px;
+    height: 68px;
+    margin-right: 25px;
+}
+
+.left> .MuiSvgIcon-root {
+    font-size: 70px;
+    color: white;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+.right > img {
+    width: 70px;
+    height: 70px;
+}
+
+.right>p {
+    font-size: 20px;
+    color: white;
+}

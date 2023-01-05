@@ -1,9 +1,9 @@
 import "./join.css";
+import Map from "../Maps/Map";
 const Join = () => {
   return (
     <div className="Join" id="join-us">
       <div className="left-j">
-
         <div>
           <span className="stroke-text">READY TO</span>
           <span> LEVEL UP</span>
@@ -13,7 +13,6 @@ const Join = () => {
           <span className="stroke-text">WITH US?</span>
         </div>
       </div>
-
     </div>
   );
 };
