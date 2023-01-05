@@ -31,7 +31,7 @@ function Footer() {
             <h3>Contact : +91 70927 88767</h3>
             <h3>Email : prosoccerschool.pss@gmail.com</h3>
             <Map/>
-        </div>
+                    </div>
         <div className="media-icons">
             <a href="https://www.instagram.com/prosoccerschool/">
             <img src={Insta} alt="" />

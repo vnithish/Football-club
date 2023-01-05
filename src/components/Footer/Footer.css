@@ -58,6 +58,8 @@
 } 
 
 
+
+
 @media screen and (max-width : 768px) {
 
     .footer {
@@ -74,3 +76,4 @@
         margin-left: 50px;
     }
 }
+
