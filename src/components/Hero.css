@@ -185,7 +185,7 @@
   }
 
   .the-best-ad {
-    font-size: small;
+    font-size: 25px !important;
 
     align-self: center;
     margin: 0 !important;
