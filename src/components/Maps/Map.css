@@ -1,3 +1,12 @@
 .maps > iframe {
     border: 10px solid grey !important;
+    width: 400px !important;
+    height: 570px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .maps >iframe {
+        width: 290px !important;
+        height: 400px !important;
+    }
 }
