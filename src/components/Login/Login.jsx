@@ -27,7 +27,7 @@ function Login() {
       .then(async (res) => {
         setSubmitButtonDisabled(false);
 
-        navigate("/");
+        navigate("/admin");
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);
@@ -37,10 +37,11 @@ function Login() {
   return (
     <div className="container">
       <div className="innerBox">
-        <h1>Login</h1>
+        <h1>Admin Login</h1>
 
         <InputControl
           label="Email"
+          type = "text"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, email: event.target.value }))
           }
@@ -48,14 +49,15 @@ function Login() {
         />
         <InputControl
           label="Password"
+          type = 'password'
           onChange={(event) =>
             setValues((prev) => ({ ...prev, pass: event.target.value }))
           }
           placeholder="Enter Password"
         />
 
-        <div className="footer">
-          <b className="error">{errorMsg}</b>
+        <div className="footer-login">
+          <p className="error">{errorMsg}</p>
           <button disabled={submitButtonDisabled} onClick={handleSubmission}>
             Login
           </button>
