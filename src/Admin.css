@@ -1,0 +1,38 @@
+.admin {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.admin > img {
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 10px 5px 5px grey;
+}
+.admin > h3 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.admin > h3 > span {
+  font-size: 18px;
+}
+
+.admin > input {
+  width: fit-content;
+  border: none;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  height: fit-content;
+  padding: 10px;
+}
+
+.admin > .btn {
+  margin: 10px;
+}
