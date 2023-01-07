@@ -4,6 +4,7 @@ import Home from "./Home.js";
 import Gallery from "./Gallery.js";
 import Admin from "./Admin";
 import Login from "./components/Login/Login";
+import PrivateRoute from './ProtectedRoute'
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/admin" element={<Admin />} />
+          <Route element = {<PrivateRoute/>}>
+            <Route element = {<Admin/>} path = '/admin'/>
+          </Route>
+          {/* <PrivateRoute path = '/admin' component = {Login}/> */}
         </Routes>
       </Router>
     </div>
