@@ -1,12 +1,14 @@
 import { Navigate, Outlet } from 'react-router-dom';
 
-// import { auth } from './firebase';
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+
+
 
 const PrivateRoute = () => {
-   const auth = {'isLogged' : true};
-
+  const auth = getAuth();
+  const user = auth.currentUser;
   return (
-    auth.isLogged ? <Outlet/> : <Navigate to = '/login'/> 
+    user ? <Outlet /> : <Navigate to='/login' />
   );
 };
 
