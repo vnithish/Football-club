@@ -5,6 +5,7 @@ import Gallery from "./Gallery.js";
 import Admin from "./Admin";
 import Login from "./components/Login/Login";
 import PrivateRoute from './ProtectedRoute'
+import NotFound from "./components/NotFound/NotFound";
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
           <Route element = {<PrivateRoute/>}>
             <Route element = {<Admin/>} path = '/admin'/>
           </Route>
-          {/* <PrivateRoute path = '/admin' component = {Login}/> */}
+          <Route element = {<NotFound/>} path="*" />
         </Routes>
       </Router>
     </div>
