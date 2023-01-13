@@ -22,7 +22,7 @@
 .category{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    border: 4px solid white;
     padding: 2rem;
     gap: 1rem;
     color: white;
