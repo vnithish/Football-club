@@ -26,7 +26,7 @@ export const programsData = [
 
     heading: "Age Specific Training",
     details:
-      "Our academy offers age specific training where players are divided based on their age and trained separately.  Our age groups are u-10 , u-14 , u-17",
+      "Our academy offers age specific training where players are divided based on their age and trained separately.  Our age groups are U-10 ,U-14 ,U-17. This is the foundation and formative phase where players involved in developing motor skills at different level and in SSG's.",
   },
   {
     image: <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
