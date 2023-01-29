@@ -11,23 +11,30 @@
   margin-right: 25px;
 }
 
-.left > .MuiSvgIcon-root {
+.left > a > img {
+  width: 65px;
+  height: 68px;
+  margin-right: 25px;
+}
+
+.left > a > .MuiSvgIcon-root {
   font-size: 70px;
   color: white;
 }
 
-.right {
+.right a {
   display: flex;
   align-items: center;
 }
-.right > img {
+.right > a > img {
   width: 70px;
   height: 70px;
 }
 
-.right > p {
+.right > a > p {
   font-size: 20px;
   color: white;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 970px) {
@@ -42,14 +49,13 @@
   }
 
   .right > img {
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
-}
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
 
-.right > p {
-  font-size: 10px;
-  color: white;
-}
-
+  .right > p {
+    font-size: 10px;
+    color: white;
+  }
 }

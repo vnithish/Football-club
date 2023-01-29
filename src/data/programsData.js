@@ -26,7 +26,7 @@ export const programsData = [
 
     heading: "Age Specific Training",
     details:
-      "Our academy offers age specific training where players are divided based on their age and trained separately.  Our age groups are U-10 ,U-14 ,U-17. This is the foundation and formative phase where players involved in developing motor skills at different level and in SSG's.",
+      "Our academy offers age specific training where players are divided based on their age and trained separately.  Our age groups are U-10 ,U-14 ,U-17. This is the foundation and formative phase where players involved in developing motor skills at different level and in SSG's.Best players from this phase will be promoted to Elite  high intensity program .",
   },
   {
     image: <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ export const programsData = [
     ,
     heading: "Elite High Intensity Coaching  ",
     details:
-      "At our football training center, we offer high intensity coaching to help players reach their full potential. Our fast-paced, physically demanding sessions focus on improving speed, agility, and endurance, and also encourage mental toughness. Our aim is to help players become stronger, more confident, and more resilient athletes. Whether you are a beginner or an experienced player, we have a program that is right for you.",
+      "Elite high intensity program is where the players are scouted and trained based on their game level & irrespective of the age . In this program players will travel with us for fixed period of time where the players get trained and assisted to get into various teams and clubs. This is fully Profesional phase where we promote players to achieve their dream.",
   },
   {
     image: <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@ export const programsData = [
 
     heading: "School Oriented Coaching",
     details:
-      "Our football training center offers flexible, convenient coaching options for school-aged players. We offer after-school and weekend sessions, holiday camps, and academic support to help players develop their skills and succeed on and off the pitch. Whether you are a beginner or an experienced player, we have a program that is right for you.",
+      "In this program , Academy in partnership with schools conducts football coaching at their own venue . This includes in- school , after school and holiday football coaching . This is to help the school football team .",
   },
 ];
 

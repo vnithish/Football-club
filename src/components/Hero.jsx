@@ -61,7 +61,7 @@ const Hero = () => {
 
           <div>
             <span>
-              <NumberCounter end={10} start={0} delay="1" preFix="+" />
+              <NumberCounter end={5} start={0} delay="1" preFix="+" />
             </span>
 
             <span>Coaching Programs</span>

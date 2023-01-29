@@ -8,13 +8,19 @@ function Footer2() {
   return (
     <div className="footer2">
       <div className="left">
-        <img src={frame} alt="" style={{borderRadius : 40}}/>
-        <img src={Insta} alt=""/>
-        <WhatsAppIcon />
+        <img src={frame} alt="" style={{ borderRadius: 40 }} />
+        <a href="https://www.instagram.com/prosoccerschool/">
+          <img src={Insta} alt="" />
+        </a>
+        <a href="https://wa.me/919514499646">
+          <WhatsAppIcon />
+        </a>
       </div>
       <div className="right">
-        <p>Made by Plan-B Studios</p>
-        <img src={water} alt="" />
+        <a href="https://planbstudios.vercel.app/">
+          <p>Made by Plan-B Studios</p>
+          <img src={water} alt="" />
+        </a>
       </div>
     </div>
   );

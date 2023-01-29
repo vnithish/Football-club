@@ -39,7 +39,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="location">
-        <Map />
+        <h2>Venues</h2>
+        <div className="location-item">OMR</div>
+        <div className="location-item">Kotturpuram</div>
+        <div className="location-item">Adayar</div>
       </div>
       <div className="forms">
         <form ref={form} onSubmit={sendEmail}>
