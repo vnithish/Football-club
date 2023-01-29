@@ -12,7 +12,7 @@
 .right-h {
   flex: 1;
   position: relative;
-  background-color: var(--gold);
+  background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%);
   border-left: 4px solid white;
   border-bottom: 4px solid white;
 
@@ -100,7 +100,7 @@
 }
 
 .heart-rate {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 1rem;
   background-color: var(--darkGrey);

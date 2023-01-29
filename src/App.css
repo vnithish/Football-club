@@ -5,9 +5,9 @@
   --orange: #f48915;
   --darkGrey: #000000;
   --caloryCard: #000000;
-  --planCard: linear-gradient(210.41deg, #4c8527 1.14%, #74d434 100.75%);
-  --appColor:  #4c8527;
-  --gold: #74d434;
+  --planCard: linear-gradient(210.41deg,#FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%);
+  --appColor:  black;
+  --gold: #cbac55 
 }
 body{
   margin: 0;

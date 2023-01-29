@@ -6,7 +6,7 @@ export const programsData = [
     ,
     heading: "Kids Football",
     details:
-      "Baby Kicks is an excellent introduction to the magical world of little Kickers. Children are taught the fundamentals of football (dribbling, striking, goal scoring, and so on) in a play-oriented yet structured format, using child-friendly but realistic football equipment. Each child is given the opportunity to work within their skill level while being taught in a group format.",
+      "Baby Kicks is an excellent introduction to the magical world of little Kickers. Children are taught the fundamentals of football (dribbling, striking, goal scoring, and so on) in a play-oriented yet structured format, using child-friendly but realistic football equipment. Learning with fun is key focus of this phase.",
   },
   {
     image: (
@@ -26,7 +26,7 @@ export const programsData = [
 
     heading: "Age Specific Training",
     details:
-      "Our football training center offers age-specific programs to help players of all ages succeed. We focus on fundamental skills and physical fitness for younger players and adapt our training as players progress. We also offer personalized training and support for each player's specific goals. Our aim is to help players succeed on the pitch and foster a love for the game.",
+      "Our academy offers age specific training where players are divided based on their age and trained separately.  Our age groups are u-10 , u-14 , u-17",
   },
   {
     image: <svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg">

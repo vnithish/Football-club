@@ -6,13 +6,13 @@
 
 .forms {
   background-color: var(--gold);
-  border-radius: 40px;
+  border: 10px solid white;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 350px;
+  width: 330px;
   font-size: 16px;
-  height: 490px;
+  height: 470px;
   padding: 50px;
 }
 
