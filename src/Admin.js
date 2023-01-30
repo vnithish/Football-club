@@ -41,9 +41,9 @@ function Admin() {
         <input type="file" onChange={(event) => { setImageUpload(event.target.files[0]) }} />
         {/* <button onClick={uploadImage}>Upload Image</button> */}
         <Button className='btn' onClick={uploadImage}>Upload</Button>
-        {/* {imageList.map((url) => {
+          {/* {imageList.map((url) => {
         return <img src= {url} alt="" />
-      })} */}
+      })}   */}
       </div>
     </div>
   );
