@@ -16,12 +16,10 @@
   padding: 50px;
 }
 
-
 .forms > form > p {
   font-size: 20px;
   font-weight: bold;
 }
-
 
 input {
   margin-bottom: 10px;
@@ -62,13 +60,12 @@ input[type="submit"] {
   padding: 15px;
   font-size: 20px;
   margin-bottom: 20px;
+  transition: 0.3s;
 }
 
 .location-item:hover {
   border: 4px solid black;
-
 }
-
 
 @media screen and (max-width: 768px) {
   .footer {
@@ -77,14 +74,12 @@ input[type="submit"] {
     align-items: center;
   }
 
-.forms > form > p {
-  font-size: 20px;
-  font-weight: bold;
-}
+  .forms > form > p {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-.forms{
-  width: 200px !important;
-}
-
-
+  .forms {
+    width: 200px !important;
+  }
 }
