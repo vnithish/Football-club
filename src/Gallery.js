@@ -4,11 +4,8 @@ import { useState, useEffect } from 'react';
 import { storage } from './firebase';
 import { ref, listAll, getDownloadURL } from 'firebase/storage';
 import {
-  StaggeredAlignment,
   StaggeredGrid,
   StaggeredGridItem,
-  StaggeredGridItemFunctional,
-  StaggeredItemSpan
 } from "react-staggered-grid";
 
 
