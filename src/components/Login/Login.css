@@ -1,7 +1,6 @@
 .container {
-  height: 100%;
-  min-height: 100vh;
   width: 100%;
+  height: 1000px;
   background: linear-gradient(to right, #9900ff, #cc80ff);
   display: flex;
   justify-content: center;
@@ -10,8 +9,7 @@
 
 .innerBox {
   max-width: fit-content;
-  max-height: fit-content;
-  height: 100%;
+  height: 400px;
   width: 100%;
   background-color: #fff;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);

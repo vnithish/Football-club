@@ -43,18 +43,23 @@
     height: 30px;
   }
 
-  .left > .MuiSvgIcon-root {
+  .left > a > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .left > a > .MuiSvgIcon-root {
     font-size: 35px;
     color: white;
   }
 
-  .right > img {
+  .right > a > img {
     width: 30px;
     height: 30px;
     margin-left: 10px;
   }
 
-  .right > p {
+  .right > a > p {
     font-size: 10px;
     color: white;
   }
