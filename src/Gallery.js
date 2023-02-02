@@ -23,23 +23,29 @@ function Gallery() {
   }, [])
   return (
     
-      <StaggeredGrid
-      className='gallery'
-      columns={4} 
-      columnWidth={300} 
-      horizontalGap={100}
-      verticalGap = {20}
-      useElementWidth = {true}
-      style = {{marginTop : "100px"}}
-      >
+    
+    <div>
+      <div>
+        <h1 className='heading'>Gallery</h1>
+      </div>
 
-          {imageList.map((url,index) => {
-              return <StaggeredGridItem  index={index} initialPosition = {200} >
-                  <img src= {url} style={{width: "100%"}}/>
-                </StaggeredGridItem>
-          })}
-      </StaggeredGrid>
-     
+        <StaggeredGrid
+        className='gallery'
+        columns={4} 
+        columnWidth={300} 
+        horizontalGap={50}
+        verticalGap = {20}
+        useElementWidth = {true}
+        style = {{marginTop : "100px"}}
+        >
+
+            {imageList.map((url,index) => {
+                return <StaggeredGridItem  index={index} initialPosition = {200} >
+                    <img src= {url} style={{width: "100%"}}/>
+                  </StaggeredGridItem>
+            })}
+        </StaggeredGrid>
+      </div>
   )
 }
 
