@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Map from "../Maps/Map";
 import "./Footer.css";
 import {useState} from 'react';
 

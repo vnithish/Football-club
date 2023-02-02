@@ -2,7 +2,6 @@ import React from "react";
 import "./Programs.css";
 import { programsData } from "../../data/programsData";
 import RightArrow from "../../assets/rightArrow.png";
-import ChildCareIcon from "@mui/icons-material/ChildCare";
 import { Link } from "react-scroll";
 export const Programs = () => {
   return (

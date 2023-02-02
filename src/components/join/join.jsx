@@ -1,5 +1,4 @@
 import "./join.css";
-import Map from "../Maps/Map";
 const Join = () => {
   return (
     <div className="Join" id="join-us">
