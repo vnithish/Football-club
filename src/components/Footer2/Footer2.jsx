@@ -17,7 +17,7 @@ function Footer2() {
         </a>
       </div>
       <div className="right">
-        <a href="https://planbstudios.vercel.app/">
+        <a href="https://planbstudios.space/">
           <p>Made by Plan-B Studios</p>
           <img src={water} alt="" />
         </a>
