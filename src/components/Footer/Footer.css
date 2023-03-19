@@ -83,3 +83,14 @@ input[type="submit"] {
     width: 200px !important;
   }
 }
+
+.typeforms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.typeforms h2 {
+  color: white;
+}

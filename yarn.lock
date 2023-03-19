@@ -2633,6 +2633,19 @@
   "resolved" "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   "version" "0.2.0"
 
+"@typeform/embed-react@^2.19.0":
+  "integrity" "sha512-0uA76vltS/Plg7cAuMORTkc6yyG0Q/ZbIh7byjPaxbnypw5u6+J1eGNCCyGcIpe+xR+u6EBb0VuhWdH9YhBYzg=="
+  "resolved" "https://registry.npmjs.org/@typeform/embed-react/-/embed-react-2.19.0.tgz"
+  "version" "2.19.0"
+  dependencies:
+    "@typeform/embed" "2.9.2"
+    "fast-deep-equal" "^3.1.3"
+
+"@typeform/embed@2.9.2":
+  "integrity" "sha512-aCOUXPAwHo6/3AJNl+6aXqkvB+E5V+DqWae4KUYXd27HrqMomUdsp7jK+yGF7RiFP+PfNmWpi9OiKQUC2SBa8g=="
+  "resolved" "https://registry.npmjs.org/@typeform/embed/-/embed-2.9.2.tgz"
+  "version" "2.9.2"
+
 "@types/aria-query@^4.2.0":
   "integrity" "sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig=="
   "resolved" "https://registry.npmjs.org/@types/aria-query/-/aria-query-4.2.2.tgz"
@@ -11519,6 +11532,11 @@
   "integrity" "sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA=="
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
+
+"typescript@^3.2.1 || ^4", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=4.3.5":
+  "integrity" "sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
+  "version" "4.9.5"
 
 "unbox-primitive@^1.0.2":
   "integrity" "sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw=="
