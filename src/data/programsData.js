@@ -6,7 +6,7 @@ export const programsData = [
     ,
     heading: "Kids Football",
     details:
-      "Baby Kicks is an excellent introduction to the magical world of little Kickers. Children are taught the fundamentals of football (dribbling, striking, goal scoring, and so on) in a play-oriented yet structured format, using child-friendly but realistic football equipment. Learning with fun is key focus of this phase.",
+      "Baby Kick is an excellent introduction to the magical world of little Kickers. Children are taught the fundamentals of football (dribbling, striking, goal scoring, and so on) in a play-oriented yet structured format, using child-friendly but realistic football equipment. Learning with fun is key focus of this phase.",
   },
   {
     image: (
